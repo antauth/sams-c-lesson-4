@@ -21,4 +21,45 @@
 
 ## Exercises
 
-  
+1-3. See files in repo.
+
+```C
+// 4
+
+if ( x > 1 && x < 20 )
+  y = x;
+
+// 5
+
+y = ( x > 1 && x < 20) ? x : y;
+
+// 6
+
+if (x < 1 && x > 10)
+  statement;
+
+```
+
+7. To what value does each expression eval?
+  - `(1 + 2 * 3)` = 7
+  - `10 % 3 * 3 - (1 + 2)` = 0
+  - `((1 + 2) * 3)` = 9
+  - `(5 == 5)` = 1
+  - `(x = 5)` = 1
+
+8. Given `x = 4`, `y = 6`, `z = 2`, determine if following evalauates to true or false
+  - `if (x == 4)` T
+  - `if (x != y - z)` F
+  - `if (z = 1)` T
+  - `if (y)` T
+
+```C
+// 9
+
+if (age >= 21  && age < 65)
+```
+
+10. See file in repo.
+
+
+ 
